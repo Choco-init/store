@@ -2276,7 +2276,7 @@ body.lock {
   content: "";
   width: 26px;
   height: 14px;
-  background-image: url("/img/title-logo.svg");
+  background-image: url("img/title-logo.svg");
   z-index: 2;
   position: absolute;
   left: -30px;
@@ -2292,7 +2292,7 @@ body.lock {
 /*---------------------------SUB-------------------------------------------------------*/
 .sub {
   background-color: #152a76;
-  background-image: url("/img/back.png");
+  background-image: url("img/back.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5267,7 +5267,7 @@ body.lock {
 
 .custom-checkbox:checked + label::before {
   border: 1px solid #fd7d01;
-  background-image: url("/img/catalog/arrow.svg");
+  background-image: url("img/catalog/arrow.svg");
 }
 
 .form_radio_group-4 {
@@ -5849,7 +5849,7 @@ body.lock {
 .about2__block {
   z-index: 2;
   position: relative;
-  background-image: url("/img/about/fon.png");
+  background-image: url("img/about/fon.png");
   background-repeat: no-repeat;
 }
 
@@ -5857,7 +5857,7 @@ body.lock {
   position: relative;
   z-index: 4;
   padding: 208px 0 246px 39px;
-  background-image: url("/img/about/back-2.png");
+  background-image: url("img/about/back-2.png");
   background-repeat: no-repeat;
   background-position: 0% 40%;
 }
