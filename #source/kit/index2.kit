@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="/css/style.css">
+   <title>REC-SHOP</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <!-- @import "header.html" -->
+      <!-- @import "main2.html" -->
+      <!-- @import "footer.html" -->
+   </div>
+   <script src="/js/jquery.min.js"></script>
+   <script src="/js/jquery.fancybox.min.js"></script>
+   <script src="/js/swiper-bundle.min.js"></script>
+   <script>
+      const mySwiperFour = new Swiper('.products__slider2', {
+         loop: true,
+         slidesPerView: 4,
+         spaceBetween: 32,
+         slidesPerGroup: 1,
+         breakpoints: {
+            1200: {
+               slidesPerView: 4,
+               slidesPerGroup: 1,
+            },
+            767: {
+               spaceBetween: 30,
+               slidesPerView: 3,
+               slidesPerGroup: 1,
+            },
+            500: {
+               spaceBetween: 16,
+               slidesPerView: 2,
+               slidesPerGroup: 1,
+            },
+            200: {
+               spaceBetween: 16,
+               slidesPerView: 1,
+               slidesPerGroup: 1,
+            },
+         }
+      });
+
+      const swiperPrevFour = document.getElementById('swiperPrev-3')
+      const swiperNextFour = document.getElementById('swiperNext-3')
+
+
+      swiperPrevFour.addEventListener('click', () => {
+         mySwiperFour.slidePrev();
+      })
+      swiperNextFour.addEventListener('click', () => {
+         mySwiperFour.slideNext();
+      })
+
+      const mySwiperFive = new Swiper('.products__slider3', {
+         loop: true,
+         slidesPerView: 4,
+         spaceBetween: 32,
+         slidesPerGroup: 1,
+         breakpoints: {
+            1200: {
+               slidesPerView: 4,
+               slidesPerGroup: 1,
+            },
+            767: {
+               spaceBetween: 30,
+               slidesPerView: 3,
+               slidesPerGroup: 1,
+            },
+            500: {
+               spaceBetween: 16,
+               slidesPerView: 2,
+               slidesPerGroup: 1,
+            },
+            200: {
+               spaceBetween: 16,
+               slidesPerView: 1,
+               slidesPerGroup: 1,
+            },
+         }
+      });
+
+      const swiperPrevFive = document.getElementById('swiperPrev-4')
+      const swiperNextFive = document.getElementById('swiperNext-4')
+
+
+      swiperPrevFive.addEventListener('click', () => {
+         mySwiperFive.slidePrev();
+      })
+      swiperNextFive.addEventListener('click', () => {
+         mySwiperFive.slideNext();
+      })
+      const mySwiperSix = new Swiper('.products__slider4', {
+         loop: true,
+         slidesPerView: 4,
+         spaceBetween: 32,
+         slidesPerGroup: 1,
+         breakpoints: {
+            1200: {
+               slidesPerView: 4,
+               slidesPerGroup: 1,
+            },
+            767: {
+               spaceBetween: 30,
+               slidesPerView: 3,
+               slidesPerGroup: 1,
+            },
+            500: {
+               spaceBetween: 16,
+               slidesPerView: 2,
+               slidesPerGroup: 1,
+            },
+            200: {
+               spaceBetween: 16,
+               slidesPerView: 1,
+               slidesPerGroup: 1,
+            },
+         }
+      });
+
+      const swiperPrevSix = document.getElementById('swiperPrev-5')
+      const swiperNextSix = document.getElementById('swiperNext-5')
+
+
+      swiperPrevSix.addEventListener('click', () => {
+         mySwiperSix.slidePrev();
+      })
+      swiperNextSix.addEventListener('click', () => {
+         mySwiperSix.slideNext();
+      })
+
+      const mySwiperSeven = new Swiper('.sale__slider', {
+         loop: true,
+         slidesPerView: 1,
+         spaceBetween: 32,
+         slidesPerGroup: 1,
+         pagination: {
+            el: '.swiper-pagination2',
+            type: 'bullets',
+         },
+      });
+
+      const swiperPrevSeven = document.getElementById('swiperPrev-7')
+      const swiperNextSeven = document.getElementById('swiperNext-7')
+
+
+      swiperPrevSeven.addEventListener('click', () => {
+         mySwiperSeven.slidePrev();
+      })
+      swiperNextSeven.addEventListener('click', () => {
+         mySwiperSeven.slideNext();
+      })
+   </script>
+   <script src="/js/script.js"></script>
+</body>
+
+</html>
